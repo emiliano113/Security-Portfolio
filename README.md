@@ -1,2 +1,19 @@
-# Security-Portfolio
-Resolución y explicación de laboratorios de Web Security Academy (PortSwigger)
+# Security Portfolio
+
+Repositorio donde documento mi progreso en seguridad ofensiva, resolviendo laboratorios prácticos de [PortSwigger Web Security Academy](https://portswigger.net/web-security).
+
+Soy estudiante de Ingeniería en Sistemas (3er año) y estoy profundizando en seguridad web por cuenta propia. Cada write-up explica la vulnerabilidad trabajada, el razonamiento para encontrarla y cómo la exploté, en mis propias palabras.
+
+## 📂 Categorías resueltas
+
+### Business Logic Vulnerabilities
+| # | Lab | Nivel |
+|---|-----|-------|
+| 1 | [Excessive trust in client-side controls](./business-logic-vulnerabilities/01-excessive-trust-client-side-controls.md) | Apprentice |
+| 2 | [High-level logic vulnerability](./business-logic-vulnerabilities/02-high-level-logic-vulnerability.md) | Apprentice |
+| 3 | [Inconsistent security controls](./business-logic-vulnerabilities/03-inconsistent-security-controls.md) | Apprentice |
+| 4 | [Flawed enforcement of business rules](./business-logic-vulnerabilities/04-flawed-enforcement-business-rules.md) | Apprentice |
+| 5 | [Low-level logic flaw](./business-logic-vulnerabilities/05-low-level-logic-flaw.md) | Practitioner |
+
+---
+*Más categorías próximamente.*
