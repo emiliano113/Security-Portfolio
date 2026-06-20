@@ -18,10 +18,9 @@ El campo `quantity` del carrito se procesa en el servidor como un entero de 32 b
 2. Dado que el campo `quantity` solo admite hasta 2 dígitos por solicitud, envié la petición a Burp Intruder y configuré el parámetro `quantity` en `99` (el máximo posible por request).
 3. En la pestaña **Payloads**, usé el tipo **Null payloads** configurado para generar solicitudes de forma continua (**"Continue indefinitely"**), e inicié el ataque para sumar unidades de a 99 repetidamente.
 4. Mientras el ataque corría, fui monitoreando el total del carrito. En un momento el precio saltó abruptamente a un número negativo grande y comenzó a acercarse a cero — señal de que se había superado el límite del entero de 32 bits.
-5. Vacié el carrito y repetí un ataque de Intruder similar, pero esta vez configurando el payload para generar exactamente **323 payloads**, y agregué la solicitud a un **Resource Pool** con el número máximo de solicitudes simultáneas limitado a **1** (para evitar condiciones de carrera y asegurar que el conteo final fuera predecible).
-6. Al finalizar el ataque, envié una única solicitud de **47 chaquetas** vía Repeater. El total del carrito quedó en **-$1221.96**.
-7. Usando Repeater, agregué la cantidad necesaria de otro artículo para que el total final del carrito quedara entre $0 y $100.
-8. Confirmé el pedido (**"Place order"**), resolviendo el laboratorio.
+5. Al finalizar el ataque, envié solicitudes nuevamente a través de intruder pero esta vez calculando las cantidades de peticiones para que me quede el valor negativo cerca a Cero, luego utilice Repeater.
+6. Usando Repeater, agregué la cantidad necesaria de otro artículo para que el total final del carrito quedara entre $0 y $100.
+7. Confirmé el pedido (**"Place order"**), resolviendo el laboratorio.
 
 ## Conclusión
 
