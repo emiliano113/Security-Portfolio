@@ -20,6 +20,6 @@ Soy estudiante de Ingeniería en Sistemas (3er año) y estoy profundizando en se
 | 9 | [Authentication bypass via flawed state machine](./business-logic-vulnerabilities/09-Authentication-bypass-via-flawed-state-machine.md) | Practitioner |
 | 10 | [Infinite money logic flaw](./business-logic-vulnerabilities/10-Infinite-money-logic-flaw.md) | Practitioner |
 | 11 | [Authentication bypass via encryption oracle](./business-logic-vulnerabilities/11-Authentication-bypass-via-encryption-oracle.md) | Practitioner |
-
+| 12 | [Bypassing access controls using email address parsing discrepancies](./business-logic-vulnerabilities/12-Bypassing-access-controls-using-email-address-parsing-discrepancies.md) | Expert |
 ---
 *Más categorías próximamente.*
