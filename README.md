@@ -19,6 +19,7 @@ Soy estudiante de Ingeniería en Sistemas (3er año) y estoy profundizando en se
 | 8 | [Insufficient workflow validation](./business-logic-vulnerabilities/08-Insufficient-workflow-validation.md) | Practitioner |
 | 9 | [Authentication bypass via flawed state machine](./business-logic-vulnerabilities/09-Authentication-bypass-via-flawed-state-machine.md) | Practitioner |
 | 10 | [Infinite money logic flaw](./business-logic-vulnerabilities/10-Infinite-money-logic-flaw.md) | Practitioner |
+| 11 |
 
 ---
 *Más categorías próximamente.*
