@@ -1,1 +1,5 @@
-alo
+## picoCTF Challenges
+
+| # | Challenge | Categoría | Dificultad | Write-up |
+|---|-----------|-----------|------------|----------|
+| 1 | Inspect HTML | Web Exploitation | Easy | [Ver Write-up](./picoCTF/01-inspect-html.md) |
