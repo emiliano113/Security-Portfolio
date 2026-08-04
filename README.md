@@ -14,7 +14,7 @@ Soy estudiante de Ingeniería en Sistemas (3er año) y estoy profundizando en se
 | 3 | [Inconsistent security controls](./business-logic-vulnerabilities/03-inconsistent-security-controls.md) | Apprentice |
 | 4 | [Flawed enforcement of business rules](./business-logic-vulnerabilities/04-flawed-enforcement-business-rules.md) | Apprentice |
 | 5 | [Low-level logic flaw](./business-logic-vulnerabilities/05-low-level-logic-flaw.md) | Practitioner |
-| 6 | [Inconsistent handling of exceptional input](./business-logic-vulnerabilities/06-Inconsistent-handling-of-exceptional-input.md) | Pendiente |
+| 6 | [Inconsistent handling of exceptional input](./business-logic-vulnerabilities/06-Inconsistent-handling-of-exceptional-input.md) |Practitioner |
 | 7 | [Weak isolation on dual-use endpoint](./business-logic-vulnerabilities/07-Weak-isolation-on-dual-use-endpoint.md) | Practitioner |
 | 8 | [Insufficient workflow validation](./business-logic-vulnerabilities/08-Insufficient-workflow-validation.md) | Practitioner |
 | 9 | [Authentication bypass via flawed state machine](./business-logic-vulnerabilities/09-Authentication-bypass-via-flawed-state-machine.md) | Practitioner |
